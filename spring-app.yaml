@@ -25,6 +25,8 @@ spec:
         image: davidaavilar/springapp:20241017.1
         ports:
         - containerPort: 8080
+        securityContext:
+          privileged: true
 
 ---
 apiVersion: v1
